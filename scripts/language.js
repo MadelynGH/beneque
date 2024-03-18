@@ -103,6 +103,7 @@ const englishBenequeDictionary = {
     "andrew": "Kuga",
     "madelyn": "Lena",
     "daniel": "Beste",
+    "teresa": "Moona",
 }
 
 export {englishBenequeDictionary};
