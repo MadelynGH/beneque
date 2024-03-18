@@ -8,7 +8,11 @@ englishTextInput.addEventListener("input", function() {
 });
 
 const stripPunc = function(string) {
-    return string.replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, "")
+    if (('!"'.concat("#$%&'()*+,-./:;<=>?@[\]^_`{|}~").includes(string[0])) || ('!"'.concat("#$%&'()*+,-./:;<=>?@[\]^_`{|}~").includes(string[string.length - 1]))) {
+        return string.replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, "")
+    } else {
+        return string
+    }
 }
 
 const translate = function(sentence) {
@@ -23,7 +27,7 @@ const translate = function(sentence) {
         try {
             stringToAdd = language.englishBenequeDictionary[stripPunc(sentence.split(" ")[i].toLowerCase())].concat(" ");
         } catch(error) {
-            stringToAdd = sentence.split(" ")[i].toLowerCase().concat(" ");
+            stringToAdd = stripPunc(sentence.split(" ")[i].toLowerCase()).concat(" ");
         }
 
         try {

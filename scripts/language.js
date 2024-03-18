@@ -9,6 +9,7 @@ const englishBenequeDictionary = {
     "i": "mi",
     "me": "mi",
     "you": "tran",
+    "you're": "tranle",
     "we": "rena",
     "my": "mic",
     "mine": "mic",
