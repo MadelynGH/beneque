@@ -7,6 +7,7 @@ const englishBenequeDictionary = {
     "poop": "ti",
     "butt": "rengret",
     "i": "mi",
+    "i'm": "mile",
     "me": "mi",
     "you": "tran",
     "you're": "tranle",
@@ -105,7 +106,6 @@ const englishBenequeDictionary = {
     "daniel": "Beste",
     "teresa": "Moona",
     "matthew": "Flex",
-    "abigail": "Narwhal",
 }
 
 export {englishBenequeDictionary};
