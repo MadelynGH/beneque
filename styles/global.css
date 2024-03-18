@@ -3,6 +3,8 @@
 body {
     font-family: "DynaPuff";
     text-align: center;
+
+    padding-bottom: 200px;
 }
 
 h1 {
@@ -62,12 +64,25 @@ button:active {
     color: rgb(207, 255, 244);
 }
 
-#main-heading {
-    color: darkcyan;
+table {
+    font-family: "Nunito";
+    border-collapse: collapse;
 }
 
-.sub-heading {
+table * {
+    border: 1px solid darkcyan;
+    padding: 5px;
+}
+
+th {
+    font-size: 2em;
+    padding: 20px;
+}
+
+#main-heading {
     color: rgb(74, 0, 222);
+    font-family: "MuseoModerno";
+    font-weight: 900;
 }
 
 .text-group p {
@@ -78,4 +93,14 @@ button:active {
 .text-group div {
     width: 20vw;
     margin: auto;
+}
+
+.seventyvw {
+    width: 70vw;
+    margin: auto;
+}
+
+.seventyvw p {
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
 }

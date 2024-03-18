@@ -7,28 +7,25 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta charset="UTF-8">
 
-        <link rel="stylesheet" type="text/css" href="styles/home.css">
+        <link rel="stylesheet" type="text/css" href="/styles/global.css">
     </head>
 
     <body>
-        <h1 id="main-heading">Beneque</h1>
+        <h1 id="main-heading">Home</h1>
 
-        <hr>
-
-        <h2 class="sub-heading">Translator</h2>
-
-        <div id="english-input-group" class="text-group">
-            <h3>English text</h3>
-            <textarea id="english-input" rows="10"></textarea>
+        <div class="seventyvw">
+            <p>
+                Welcome to the official Beneque website!
+                <br><br><br>
+                You can provide an sentence/phrase in English, and we will translate it to Beneque.
+                <br><br>
+                Beneque is not a fully developed language and if your English sentence/phrase contains a word that we have not defined in Beneque,
+                the Beneque translation for that word will just be the original English word.
+                <br><br>
+                If you put more than one character of punctionation in a row (eg. "!!!!"), the Beneque version will only be one instance of that character in that spot (eg. "!")
+            </p>
         </div>
 
-        <div id="beneque-paragraph-group" class="text-group">
-            <h3>Beneque text</h3>
-            <div>
-                <p id="beneque-text"><i>Translated text will show up here.</i></p>
-            </div>
-        </div>
-
-        <script src="scripts/translator.js" type="module"></script>
+        <script src="/scripts/header.js"></script>
     </body>
 </html>
