@@ -2,13 +2,31 @@
 
 <html>
     <head>
-        <title>Beneque - Language</title>
+        <title>Beneque | Home</title>
 
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="styles/home.css">
     </head>
 
     <body>
-        <h1>Beneque - Language</h1>
+        <h1 id="main-heading">Beneque</h1>
+
+        <hr>
+
+        <h2 class="sub-heading">Translator</h2>
+
+        <div id="english-input-group" class="text-group">
+            <h3>English text</h3>
+            <textarea id="english-input" rows="10"></textarea>
+        </div>
+
+        <div id="beneque-paragraph-group" class="text-group">
+            <h3>Beneque text</h3>
+            <p id="beneque-text"><i>Translated text will show up here.</i></p>
+        </div>
+
+        <script src="scripts/translator.js" type="module"></script>
     </body>
 </html>

@@ -1,0 +1,75 @@
+@import "fonts.css";
+
+body {
+    font-family: "DynaPuff";
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-family: "Life Savers";
+    font-size: 1.5em;
+    
+    margin: 0;
+}
+
+label {
+    font-family: "Life Savers";
+    font-weight: bold;
+}
+
+textarea {
+    font-family: "Montserrat Alternates";
+    font-size: 1em;
+
+    margin: 8px;
+    width: 20vw;
+
+    border: 1.5px solid rgb(156, 129, 212);
+    border-radius: 8px;
+    outline: none;
+    padding: 15px;
+
+    resize: none;
+}
+
+textarea:focus {
+    background-color: rgb(202, 190, 255);
+}
+
+button {
+    background-color: rgb(0, 187, 146);
+    color: white;
+    
+    padding: 10px;
+    font-family: "Sigmar One";
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 207, 190);
+}
+
+button:active {
+    color: rgb(207, 255, 244);
+}
+
+#main-heading {
+    color: darkcyan;
+}
+
+.sub-heading {
+    color: rgb(74, 0, 222);
+}
+
+.text-group p {
+    font-family: "Montserrat Alternates";
+}
