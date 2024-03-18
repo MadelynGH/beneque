@@ -39,7 +39,7 @@ const englishBenequeDictionary = {
     "and": "unco",
     "for": "peni",
     "how": "reni",
-    "hand": "ha",
+    "to": "ano",
     "bowl": "wa",
     "toilet": "tiwa",
     "house": "nuku",
